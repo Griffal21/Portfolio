@@ -39,6 +39,7 @@ document.addEventListener('keydown', function(e) {
 
     if (position == konamiCode.length) {
       $("#hiddenDiv").toggle();
+      $("#hiddenDiv").html('<h1 class="h1Kon">You Found My Secret!</h1><img src="./images/konamiCode.gif" /><br><small class="h1Kon">Click the gif or enter the code again to close</small>');
       console.log("You found my Secret!  Congradulations!");
       position = 0;
     }
